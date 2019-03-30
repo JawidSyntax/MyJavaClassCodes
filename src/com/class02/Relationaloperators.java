@@ -14,6 +14,7 @@ public class Relationaloperators {
 
 		System.out.println(result);
 		System.out.println(result1);
+		
 
 		// compare 2 numbers and if a is larger than b --> print
 		

@@ -26,7 +26,7 @@ public static void main (String[] args) {
 String Square="Square";
 
 	
-double mult1=(3.9*4);
+double mult1=(l*g);
 
 System.out.println("The square of the "+Square+" is "+mult1);
 
@@ -38,6 +38,7 @@ int w=5;
 int h=8;
 
 sum=(5+8);
+
 
 
 
