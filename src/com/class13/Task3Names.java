@@ -32,15 +32,16 @@ Suggested baby name: MAIEL */
 		System.out.println("What do you expect?");
 		gender = input.nextLine();
 
-		if(gender.equals ("boy")) {
-			System.out.println("Adam");
+		if(gender.equalsIgnoreCase ("boy")) {
+			child = dad.substring(0, dad.length() / 2)
+					+ mom.substring(mom.length() /2);
 		}
-		if (gender.equals ("girl")) {
-				System.out.println("Marry");
+		else if (gender.equals ("girl")) {
+				child = mom.substring(0, mom.length() / 2)+ dad.substring(dad.length( )/ 2);
 		} else {
-			System.out.println("Please identfy the gender");
+			child = "No suggestion";
 		}
-			
+			System.out.println(child.toUpperCase());
 		}
 	}
 
