@@ -14,12 +14,10 @@ public class TeamWork7 {
 		System.out.println("Enter the number");
 		num = scan.nextInt();
 		
-		for (int  i =2; i<=num / 2; i++) {
+		for (int  i =2; i<=num / 2 ; i++) {
 			
 			if (num % i ==0) {
 				prime = false;
-				
-				//break;
 			}
 		}
 			if (prime) {
