@@ -8,12 +8,12 @@ public class Task3 {
 		
 		
 		Task3 name = new Task3();
-		
-		name.ifPalindrome("Madam");
+		 
+		name.ifPalindrome("madam");
 		
 	}
 	void ifPalindrome(String name) {
-		String reverse = "";
+		String reverse ="";
 	for (int  i=name.length()-1; i>=0; i--) {
 		reverse= reverse+ name.charAt(i);
 	}
