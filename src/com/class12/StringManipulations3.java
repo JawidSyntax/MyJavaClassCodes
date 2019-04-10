@@ -33,15 +33,15 @@ public class StringManipulations3 {
 		//substring() --> gives another string from your current String.
 		
 		System.out.println("----------------- substring    ----------------------");
-		String str3 = "Today is Sunday Java class";
-		String newstring = str3.substring(8);
-		System.out.println(newstring);//Sunday Java class
+		String str3 = "Today is Sunday it is Java class";
+	String newstring = str3.substring(8);
+	System.out.println(newstring);//Sunday Java class
 		
-		System.out.println(str3.substring(0, 5));//today
+		System.out.println(str3.substring(0, 2));//today
 		System.out.println(str3.substring(9, 20));//Sunday Java
 		System.out.println(str3.substring(16, 20));//Java
-		System.out.println(str3.substring(21));//class
-		
+System.out.println(str3.substring(21));//class
+	
 		
 		
 		
