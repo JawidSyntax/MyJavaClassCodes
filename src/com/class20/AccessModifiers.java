@@ -2,11 +2,21 @@ package com.class20;
 
 public class AccessModifiers {
 	
+	private String name = "John";
+	
+	String name1 = "Bilal";
+	
+	protected String name2 = "Asha";
+	
+	public String name3 = "Titania";
+	
 	public static void main(String[] args) {
 		
 		AccessModifiers obj = new AccessModifiers();
 		String reversed = obj.reverseString("Hello");
 		System.out.println(reversed);
+		
+		obj.sayHello();
 		
 		boolean isPalindrome = obj.isPalindrome("Hello");
 		System.out.println(obj.isPalindrome("Hello"));
@@ -63,6 +73,9 @@ public class AccessModifiers {
 		return words;
 	}
 	
+	void sayHello() {
+		
+	}
 	}
 
 
