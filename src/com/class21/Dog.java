@@ -30,9 +30,9 @@ public class Dog {
 		dog3.height=30;
 		dog3.getDogProperties();
 		
-		dog1.getDogProperties();
-		dog2.getDogProperties();
-		System.out.println(breed);
+	dog1.getDogProperties();
+	dog2.getDogProperties();
+//		System.out.println(breed);
 		//3 ways of accessing static variables
 //		System.out.println(breed);
 //		System.out.println(Dog.breed);//by class name
