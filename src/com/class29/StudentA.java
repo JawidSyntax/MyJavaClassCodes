@@ -7,7 +7,7 @@ public class StudentA extends Marks {
 ////		super.biology = biology;
 ////		super.arts = arts;
 //	}
-//	
+
 	@Override
 	public void  getPercentage() {
 		int percent = (78 + 96 + 80) / 3;

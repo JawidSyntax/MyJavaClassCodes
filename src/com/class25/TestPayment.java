@@ -1,4 +1,4 @@
- obpackage com.class25;
+package com.class25;
 
 public class TestPayment {
 	
