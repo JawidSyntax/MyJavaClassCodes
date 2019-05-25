@@ -8,7 +8,7 @@ public class classA {
 	public final void show () {
 		System.out.println("This is a check for final keyword");
 	}
-	public final void show (String str) {
+	public void show (String str) {
 		System.out.println("This is is a check for overloading");
 	}
 	
